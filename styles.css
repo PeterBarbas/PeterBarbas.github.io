@@ -1,60 +1,30 @@
-/* Modern Valentine Styles */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(135deg, #ff4e50, #fc913a);
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    overflow: hidden;
-    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(10px);
-    position: relative;
-    z-index: 10;
-    animation: fadeIn 1s ease-in-out;
+    width: 100%;
+    height: 100vh;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: scale(0.9); }
-    to { opacity: 1; transform: scale(1); }
-}
-
-.buttons {
-    margin-top: 20px;
-}
-
-button {
-    padding: 12px 24px;
-    margin: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    border-radius: 50px;
-    transition: all 0.3s ease;
-}
-
-#yes {
-    background: #28a745;
-    color: white;
-}
-
-#yes:hover {
-    background: #218838;
-}
-
-#no {
-    background: #dc3545;
-    color: white;
+.question {
     position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-92%);
+    font-size: 96px;
+    font-weight:900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.yesContainer {
+    height: 50vh;
+    background-color: #FF4242;
+}
+
+.noContainer {
+    height: 50vh;
+    background-color: #35C2FF;
 }
