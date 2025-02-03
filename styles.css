@@ -4,16 +4,16 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
 .question {
     position: absolute;
     top: 50%;
-    left: 2%;
-    transform: translateY(-92%);
-    font-size: 6vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 96px;
     font-weight:900;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -22,9 +22,25 @@ body {
 .yesContainer {
     height: 50vh;
     background-color: #FF4242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yesImage {
+    width: auto;
+    height: 300px;
 }
 
 .noContainer {
     height: 50vh;
     background-color: #35C2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noImage {
+    width: auto;
+    height: 250px;
 }
