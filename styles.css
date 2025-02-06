@@ -26,6 +26,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    filter: drop-shadow(0px 0px 50px #FF2F6F);
 }
 
 .box2 {
@@ -44,7 +45,7 @@ body {
     justify-content: start;
     align-items: start;
     position: relative;
-    padding: 0px 100px;
+    filter: drop-shadow(0px 0px 50px #FF2F6F);
 }
 
 .box1 .text {
