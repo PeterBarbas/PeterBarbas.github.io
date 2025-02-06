@@ -32,10 +32,9 @@ body {
 .box2 {
     width: 90vw;
     max-width: 530px;
-    height: 60%;
-    max-height: 620px;
+    height: fit-content;
     background-color: white;
-
+    padding: 20px 0px;
     /* background-image: url(Assets/paper.jpg); */
     background-size: contain;
     opacity: 90%;
@@ -176,10 +175,6 @@ body {
       font-size: 30px;
       margin-bottom: 50px;
       margin-top: 20px;
-    }
-
-    .box2 {
-        height: 65%;
     }
 
     .box2 .text {
