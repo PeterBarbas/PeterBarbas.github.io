@@ -151,19 +151,22 @@ body {
     color: black;
 }
 
-.box2Container .buttons {
+.box2 .buttons {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 95%;
 }
 
-.box2Container .buttons .orJust {
+.box2 .buttons .orJust {
     font-family: "Noto Sans";
     font-size: 16px;
     font-weight: 400;
     margin: 30px 0px 20px 0px;
 }
 
-.box2Container .buttons .yesButton {
+.box2 .buttons .yesButton {
     width: 100%;
     margin: 0;
 }
