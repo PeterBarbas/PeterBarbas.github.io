@@ -178,6 +178,9 @@ body {
       margin-top: 20px;
     }
 
+    .box2 {
+        height: 65%;
+    }
 
     .box2 .text {
         font-size: 30px;
