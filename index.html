@@ -15,12 +15,12 @@
             <img class="heartEmoji" src="Assets/heart.png">
             <span class="text">Will you be my</br>Valentine?</span>
             <div class="buttons">
-                <button class="button yesButton">Yes</button>
+                <button onclick="yesClicked()" class="button yesButton">Yes</button>
                 <button onclick="noClicked()" class="button noButton">No</button>
             </div>
             </div>
         <div class="box2 hidden">
-            <img class="goBack" src="Assets/arrow.png" onclick="goBack()">
+            <img class="goBack" src="Assets/arrow.png" onclick="goBack2()">
             <span class="text">Try Valentine Premium Now!</span>
             <div class="benefits">
                 <span>⭐ 1 credit to use the 'No' button</span>
@@ -39,10 +39,39 @@
             </div>
             <div class="buttons">
                 <span class="orJust">Or.. just say yes!</span>
-                <button class="button yesButton">Yes</button>
+                <button onclick="yesClicked()" class="button yesButton">Yes</button>
+            </div>
+        </div>
+
+        <div class="box3 hidden">
+            <img class="goBack" src="Assets/arrow.png" onclick="goBack3()">
+            <span class="text">Dinner Reservation Confirmed! 🎉</span>
+            <div class="benefits">
+                <span>📌 Location: Roberto's </span>
+                <span>🕘 Reservation at 21:00 PM</span>
+            </div>
+            <div class="buttons">
+                <button class="button redeemButton" onclick="redeem()">Redeem</button>
             </div>
         </div>
         
+        <div class="box4 hidden">
+            <img class="goBack" src="Assets/arrow.png" onclick="goBack4()">
+            <span class="text">3 Reasons why I love you ❤️</span>
+            <div class="benefits">
+                <span>✨ You have (some) ΧοΥμΟρ</span>
+                <span>🐥 Κάνουμε ΦΟΥλ καλή παρέα αφού</span>
+                <span>🏠 You make me feel right at home..</span>
+            </div>
+            <div class="buttons">
+                <button class="button nothingButton" onclick="startHeartAnimation()">Nothing -- just a...</button>
+            </div>
+        </div>
+        <div id="heartsContainer"></div>
+        
+    </div>
+    <canvas id="fireworksCanvas"></canvas>
+
     <script src="script.js"></script>
 </body>
 </html>
